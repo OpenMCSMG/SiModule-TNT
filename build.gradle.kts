@@ -1,4 +1,4 @@
-val funcName = "putfunname"
+val funcName = "tntaddon"
 val group = "cn.cyanbukkit.${funcName}"
 val version = "0.1"
 val mainPlugin = "SiModuleGame"
@@ -10,6 +10,7 @@ bukkit {
     website = "https://cyanbukkit.cn"
     main = "${group}.cyanlib.launcher.CyanPluginLauncher"
     loadBefore = listOf(mainPlugin)
+    apiVersion = "1.13"
 }
 
 plugins {
@@ -24,19 +25,19 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT")
     compileOnly("com.comphenix.protocol:ProtocolLib:4.8.0")
     compileOnly(fileTree("libs") { include("*.jar") })
 
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(17)
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 tasks {

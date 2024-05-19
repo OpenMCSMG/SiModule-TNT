@@ -1,8 +1,8 @@
-package cn.cyanbukkit.putfunname.cyanlib.loader;
+package cn.cyanbukkit.tntaddon.cyanlib.loader;
 
-import cn.cyanbukkit.putfunname.cyanlib.launcher.CyanPluginLauncher;
-import cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc.BukkitLibraryManager;
-import cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc.Library;
+import cn.cyanbukkit.tntaddon.cyanlib.launcher.CyanPluginLauncher;
+import cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc.BukkitLibraryManager;
+import cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc.Library;
 import org.bukkit.Bukkit;
 
 import java.net.HttpURLConnection;

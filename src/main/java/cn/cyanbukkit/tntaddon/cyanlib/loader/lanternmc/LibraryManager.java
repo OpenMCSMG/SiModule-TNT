@@ -1,11 +1,11 @@
 // Decompiled with: CFR 0.152
 // Class Version: 8
-package cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc;
+package cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc;
 
 
-import cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc.Logger.LogLevel;
-import cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc.Logger.Logger;
-import cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc.Logger.adapters.LogAdapter;
+import cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc.Logger.LogLevel;
+import cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc.Logger.Logger;
+import cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc.Logger.adapters.LogAdapter;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;

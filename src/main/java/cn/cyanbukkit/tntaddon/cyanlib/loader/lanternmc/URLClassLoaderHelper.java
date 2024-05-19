@@ -1,5 +1,5 @@
 
-package cn.cyanbukkit.putfunname.cyanlib.loader.lanternmc;
+package cn.cyanbukkit.tntaddon.cyanlib.loader.lanternmc;
 
 import sun.misc.Unsafe;
 

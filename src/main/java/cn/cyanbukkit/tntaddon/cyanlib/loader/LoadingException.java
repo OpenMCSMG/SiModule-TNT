@@ -23,7 +23,7 @@
  *  SOFTWARE.
  */
 
-package cn.cyanbukkit.putfunname.cyanlib.loader;
+package cn.cyanbukkit.tntaddon.cyanlib.loader;
 
 /**
  * Runtime exception used if there is a problem during loading
