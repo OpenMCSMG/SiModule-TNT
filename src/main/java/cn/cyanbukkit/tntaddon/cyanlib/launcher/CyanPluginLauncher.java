@@ -100,8 +100,6 @@ public class CyanPluginLauncher extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(BoomEffectOfSand.INSTANCE, this);
         registerCommand(ModeEntry.INSTANCE);
-
-        CommandBlock
     }
 
     @Override
