@@ -3,6 +3,7 @@ package cn.cyanbukkit.tntaddon.cyanlib.launcher;
 import cn.cyanbukkit.putfunname.command.ModeEntry;
 import cn.cyanbukkit.putfunname.tnteffect.BoomEffectOfSand;
 import cn.cyanbukkit.tntaddon.cyanlib.loader.KotlinBootstrap;
+import org.bukkit.block.CommandBlock;
 import org.bukkit.command.Command;
 import org.bukkit.command.SimpleCommandMap;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -99,6 +100,8 @@ public class CyanPluginLauncher extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(BoomEffectOfSand.INSTANCE, this);
         registerCommand(ModeEntry.INSTANCE);
+
+        CommandBlock
     }
 
     @Override
